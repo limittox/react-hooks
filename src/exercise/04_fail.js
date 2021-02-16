@@ -99,7 +99,7 @@ function Game() {
           {squares.map((history, i) => {
             let currentMoves = i+1
             return (
-              <button onClick={}>Go to move #{currentMoves}</button>
+              <p><button >Go to move #{currentMoves}</button></p>
             )
           })}
         </ol>
